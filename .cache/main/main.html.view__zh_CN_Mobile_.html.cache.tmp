@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cY3iq2q" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cY3iq2q" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">  
-  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-white.cY3iq2q{color: rgb(255, 255, 255)} .bg-red.cY3iq2q{background-color: rgb(237, 72, 70)} .x-imgBanner.cY3iq2q{width: 100%; height: 180px} .x-img1.cY3iq2q{width: 100%; height: 90px} .x-img2.cY3iq2q{width: 100%; height: 90px} .x-img3.cY3iq2q{width: 26px; height: 24px} .btn.cY3iq2q i.cY3iq2q{font-size: 20px} .btn.cY3iq2q span.cY3iq2q{font-size: 12px; font-weight: normal} .x-titlebar.cY3iq2q{background-color: rgb(237, 72, 70)} .x-panel-bottom.cY3iq2q .btn-group.cY3iq2q .btn.active.cY3iq2q{color: rgb(237, 72, 70); padding: 0} .x-panel-bottom.cY3iq2q .btn-group.cY3iq2q{background-color: rgb(255, 255, 255)} .x-cards.cY3iq2q{padding-top: 0} .row.cY3iq2q{margin: 10px 10px} .row.cY3iq2q .col.cY3iq2q{padding: 0} .x-menu.row.cY3iq2q .col.cY3iq2q:nth-child(2){padding: 0 3px} .x-menu.row.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q{padding: 8px 0 3px 0} .x-pic.row.cY3iq2q .col.cY3iq2q{padding: 1px} .x-recommended.cY3iq2q .col.cY3iq2q{position: relative; margin-bottom: 10px} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q{width: 100%; position: absolute; bottom: 0px; left: 0; z-index: 33; background-color: rgba(0, 0, 0, 0.4)} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q span.cY3iq2q{padding: 5px} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q span.cY3iq2q:nth-child(2){height: 13px; margin: 7px 0; border-right: 1px solid rgb(255, 255, 255)}</style>  
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cY3iq2q" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cY3iq2q" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-white.cY3iq2q{color: rgb(255, 255, 255)} .bg-red.cY3iq2q{background-color: rgb(237, 72, 70)} .x-imgBanner.cY3iq2q{width: 100%; height: 180px} .x-img1.cY3iq2q{width: 100%; height: 140px} .x-img2.cY3iq2q{width: 100%; height: 120px} .x-img3.cY3iq2q{width: 26px; height: 24px} .btn.cY3iq2q i.cY3iq2q{font-size: 20px} .btn.cY3iq2q span.cY3iq2q{font-size: 12px; font-weight: normal} .x-titlebar.cY3iq2q{background-color: rgb(237, 72, 70)} .x-panel-bottom.cY3iq2q .btn-group.cY3iq2q .btn.active.cY3iq2q{color: rgb(237, 72, 70); padding: 0} .x-panel-bottom.cY3iq2q .btn-group.cY3iq2q{background-color: rgb(255, 255, 255)} .x-cards.cY3iq2q{padding-top: 0} .row.cY3iq2q{margin: 10px 10px} .row.cY3iq2q .col.cY3iq2q{padding: 0} .x-menu.row.cY3iq2q .col.cY3iq2q:nth-child(2){padding: 0 3px} .x-menu.row.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q{padding: 8px 0 3px 0} .x-pic.row.cY3iq2q .col.cY3iq2q{padding: 1px} .x-recommended.cY3iq2q .col.cY3iq2q{position: relative; margin-bottom: 10px} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q{width: 100%; position: absolute; bottom: 0px; left: 0; z-index: 33; background-color: rgba(0, 0, 0, 0.4)} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q span.cY3iq2q{padding: 5px} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q span.cY3iq2q:nth-child(2){height: 13px; margin: 7px 0; border-right: 1px solid rgb(255, 255, 255)}</style>  
   <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cY3iq2q" class="cY3iq2q"/>  
   <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcAjUnii-iosstatusbar cY3iq2q" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cY3iq2q"> 
     <div class="x-panel-top cY3iq2q" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cY3iq2q"> 
@@ -33,19 +33,41 @@
               </div> 
             </div> 
           </div>  
-          <div component="$model/UI2/system/components/bootstrap/row/row" class="row x-pic cY3iq2q" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cY3iq2q"> 
-            <div class="col col-xs-6 cY3iq2q" xid="col17" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
-              <img src="" alt="" class="x-img2 cY3iq2q" xid="image6" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top1.jpg')}"/> 
+          <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcv2imye-iosstatusbar cY3iq2q" xid="panel5" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cY3iq2q"> 
+            <div component="$model/UI2/system/components/justep/list/list" class="x-list cY3iq2q" xid="newsList" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;newsData&quot;,&quot;disableInfiniteLoad&quot;:false,&quot;disablePullToRefresh&quot;:false,&quot;limit&quot;:6}" __cid="cY3iq2q"> 
+              <div component="$model/UI2/system/components/justep/row/row" class="x-row center-block cY3iq2q" xid="row7" style="background-color:#Fff;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cY3iq2q"> 
+                <div class="x-col x-col-fixed x-col-center cY3iq2q" xid="col13" style="padding:10px 0px 10px 0px;" __cid="cY3iq2q"> 
+                  <div xid="div19" align="center" __cid="cY3iq2q" class="cY3iq2q"> 
+                    <span xid="span22" class="text-primary cY3iq2q" style="font-size:medium;" __cid="cY3iq2q">今日活动展示</span> 
+                  </div> 
+                </div> 
+              </div>  
+              <ul class="x-list-template hide cY3iq2q" xid="listTemplateUl1" style="margin-bottom:0px;" __cid="cY3iq2q" data-bind="foreach:{data:$model.foreach_newsList($element),afterRender:$model.foreach_afterRender_newsList.bind($model,$element)}"> 
+                <li xid="li2" class="col col-xs-12 cY3iq2q" style="padding:10px;background-color:#F2F2F2;border-bottom:1px solid #e4e4e4;" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'li2Click')}"> 
+                  <div component="$model/UI2/system/components/bootstrap/row/row" class="row cY3iq2q" xid="row1" style="margin-right:0px;" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cY3iq2q"> 
+                    <div class="col col-xs-4 cY3iq2q" xid="col1" __cid="cY3iq2q"> 
+                      <img alt="" xid="image1" style="width:auto;" class="img-rounded img-responsive media-object cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:val(&quot;img&quot;)}"/> 
+                    </div>  
+                    <div class="col col-xs-8 none-padding cY3iq2q" xid="col2" __cid="cY3iq2q"> 
+                      <div xid="div10" align="left" __cid="cY3iq2q" class="cY3iq2q"> 
+                        <div xid="div16" __cid="cY3iq2q" class="cY3iq2q"> 
+                          <span xid="span6" style="font-size:medium;" __cid="cY3iq2q" class="cY3iq2q" data-bind="text:val(&quot;title&quot;)"/>  
+                          <span xid="span7" style="font-size:medium;float:right;" __cid="cY3iq2q" class="cY3iq2q" data-bind="text:val(&quot;createDate&quot;)"/> 
+                        </div> 
+                      </div>  
+                      <span xid="span5" style="color:#BBBBBB;overflow:hidden;clip:rect(auto auto 0px auto);" __cid="cY3iq2q" class="cY3iq2q" data-bind="text:val(&quot;description&quot;)"/> 
+                    </div> 
+                  </div> 
+                </li> 
+              </ul> 
             </div>  
-            <div class="col col-xs-6 cY3iq2q" xid="col19" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
-              <img src="" alt="" class="x-img2 cY3iq2q" xid="image7" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top2.jpg')}"/> 
+            <div xid="div4" align="center" style="width:100%;" __cid="cY3iq2q" class="cY3iq2q"> 
+              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cY3iq2q" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;label&quot;:&quot;查看更多&quot;}" __cid="cY3iq2q"> 
+                <i xid="i2" __cid="cY3iq2q" class="cY3iq2q"/>  
+                <span xid="span2" style="color:#C0C0C0;line-height:35px;text-align:center;" __cid="cY3iq2q" class="cY3iq2q">查看更多</span> 
+              </a> 
             </div>  
-            <div class="col col-xs-6 cY3iq2q" xid="col18" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
-              <img src="" alt="" class="x-img2 cY3iq2q" xid="image8" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top3.jpg')}"/> 
-            </div>  
-            <div class="col col-xs-6 cY3iq2q" xid="col20" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
-              <img src="" alt="" class="x-img2 cY3iq2q" xid="image9" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top4.jpg')}"/> 
-            </div> 
+            <style __cid="cY3iq2q" class="cY3iq2q">.x-panel.pcv2imye-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcv2imye-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcv2imye-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcv2imye-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcv2imye-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcv2imye-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcv2imye-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcv2imye-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcv2imye-iosstatusbar &gt;.x-panel-content {top: 0px;}</style> 
           </div>  
           <div component="$model/UI2/system/components/bootstrap/row/row" class="row x-recommended cY3iq2q" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cY3iq2q"> 
             <div class="col col-xs-12 cY3iq2q" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'storeDetailedClick')}"> 

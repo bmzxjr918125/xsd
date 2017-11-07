@@ -1,11 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window">  
-  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:14px;left:142px;"><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="newsData" idColumn="id" limit="3" onCustomRefresh="newsDataCustomRefresh"><column label="ID" name="id" type="Integer" xid="xid1"></column>
-  <column label="图片路径" name="img" type="String" xid="xid2"></column>
-  <column label="新闻标题" name="title" type="String" xid="xid3"></column>
-  <column label="创建时间" name="createDate" type="String" xid="xid4"></column>
-  <column label="新闻简述" name="description" type="String" xid="xid5"></column></div>
-  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="userData" idColumn="id" onCreate="userDataCreate"><column label="用户id" name="id" type="Integer" xid="xid6"></column>
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;top:14px;left:142px;"><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="userData" idColumn="id" onCreate="userDataCreate"><column label="用户id" name="id" type="Integer" xid="xid6"></column>
   <column label="头像路径" name="img" type="String" xid="xid7"></column>
   <column label="昵称" name="nickName" type="String" xid="xid8"></column>
   <column label="等级描述" name="gradeDesc" type="String" xid="xid9"></column>
@@ -47,33 +42,16 @@
    <ul xid="ul3" class="list-group">
    <li class="list-group-item" xid="clubLi" style="padding:10px 0px 10px 20px;" bind-click="clubClick">
     <img src="$UI/cxj/img/huiyuan.png" alt="" xid="image4" style="width:28px;"></img>
-    <span xid="span13" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;">会员俱乐部</span></li> 
+    <span xid="span13" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;"><![CDATA[会员优惠]]></span></li> 
    <li class="list-group-item" xid="integralLi" style="padding:10px 0px 10px 20px;" bind-click="integralClick">
     <img src="$UI/cxj/img/integral.png" alt="" xid="image5" style="width:28px;"></img>
     <span xid="span12" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;">积分管理</span></li> 
-   </ul></div>
-  <div component="$UI/system/components/justep/panel/panel" class="panel panel-default x-card" xid="panel5">
-   <div component="$UI/system/components/justep/list/list" class="x-list" xid="newsList" limit="6" disablePullToRefresh="false" disableInfiniteLoad="false" data="newsData" style="background-color:#F2F2F2;">
-    <div component="$UI/system/components/justep/row/row" class="x-row center-block" xid="row7" style="background-color:#Fff;">
-     <div class="x-col x-col-fixed x-col-center" xid="col13" style="padding:10px 0px 10px 0px;">
-      <div xid="div19" align="center">
-       <span xid="span22" class="text-primary" style="font-size:medium;">新闻专区</span>
-  </div> 
-  </div> </div> 
-    <ul class="x-list-template" xid="listTemplateUl1" style="margin-bottom:0px;">
-     <li xid="li2" class="col col-xs-12" style=" padding:10px;background-color:#F2F2F2;border-bottom:1px solid #e4e4e4;" bind-click="li2Click">
-      <div component="$UI/system/components/bootstrap/row/row" class="row" xid="row1" style="margin-right:0px;">
-   
-   
-   <div class="col col-xs-4" xid="col1"><img alt="" xid="image1" bind-attr-src=' val("img")' style="width:auto;" class="img-rounded img-responsive media-object"></img>
-  </div><div class="col col-xs-8 none-padding" xid="col2"><div xid="div10" align="left">
-  <div xid="div16">
-   <span xid="span6" bind-text='val("title")' style="font-size:medium;"></span>
-  <span xid="span7" bind-text='val("createDate")' style="font-size:medium;float:right;"></span></div></div><span xid="span5" bind-text='val("description")' style="color:#BBBBBB;overflow:hidden;clip:rect(auto auto 0px auto);"></span>
-  
-  </div></div>
-  </li> </ul> </div> <div xid="div1" align="center" style="width:100%;"><a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-label" label="查看更多" xid="button2" onClick="button2Click">
-   <i xid="i1"></i>
-   <span xid="span1" style="color:#C0C0C0;line-height:35px;text-align:center;">查看更多</span></a></div></div></div>
+   <li class="list-group-item" xid="authenLi" style="padding:10px 0px 10px 20px;" bind-click="authenLiClick">
+   <img src="$UI/cxj/img/shiming.png" alt="" xid="image6" style="width:28px;"></img>
+   <span xid="span2" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;"><![CDATA[我的优惠券]]></span>
+   <a component="$UI/system/components/justep/button/button" class="btn btn-link t btn-only-label pull-right center-block" label="0" xid="button18" icon="icon-ios7-arrow-right" style="color:#E0E0E0;margin-right:20px;" bind-text=' $model.userData.ref("checkStatusDesc")'>
+    <i xid="i31" class="icon-ios7-arrow-right text-muted"></i>
+    <span xid="span26" style="font-size:medium;">0</span></a> </li></ul></div>
+  </div>
    </div></div></div>
   </div>

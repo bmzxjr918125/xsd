@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cBFjemi" class="cBFjemi" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
-  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cBFjemi" class="cBFjemi"></div>  
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cBFjemi" class="cBFjemi" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/scrollView/scrollView,$model/UI2/system/components/justep/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cBFjemi" class="cBFjemi"/>  
   <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcIJNRFb-iosstatusbar cBFjemi" xid="panel1" style="background-color:#F2F2F2;width:100%;" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBFjemi"> 
     <div class="x-panel-content cBFjemi" xid="content1" style="top:0px;bottom:0px;" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cBFjemi"> 
       <div class="x-scroll cBFjemi" component="$model/UI2/system/components/justep/scrollView/scrollView" xid="scrollView1" data-bind="component:{name:'$model/UI2/system/components/justep/scrollView/scrollView'}" data-events="onPullDown:scrollView1PullDown" __cid="cBFjemi"> 
@@ -48,51 +48,23 @@
             <ul xid="ul3" class="list-group cBFjemi" __cid="cBFjemi"> 
               <li class="list-group-item cBFjemi" xid="clubLi" style="padding:10px 0px 10px 20px;" bind-click="clubClick" __cid="cBFjemi"> 
                 <img src="$model/UI2/cxj/img/huiyuan.png" alt="" xid="image4" style="width:28px;" __cid="cBFjemi" class="cBFjemi"/>  
-                <span xid="span13" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;" __cid="cBFjemi" class="cBFjemi">会员俱乐部</span>
+                <span xid="span13" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;" __cid="cBFjemi" class="cBFjemi">会员优惠</span>
               </li>  
               <li class="list-group-item cBFjemi" xid="integralLi" style="padding:10px 0px 10px 20px;" bind-click="integralClick" __cid="cBFjemi"> 
                 <img src="$model/UI2/cxj/img/integral.png" alt="" xid="image5" style="width:28px;" __cid="cBFjemi" class="cBFjemi"/>  
                 <span xid="span12" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;" __cid="cBFjemi" class="cBFjemi">积分管理</span>
-              </li> 
+              </li>  
+              <li class="list-group-item cBFjemi" xid="authenLi" style="padding:10px 0px 10px 20px;" bind-click="authenLiClick" __cid="cBFjemi"> 
+                <img src="$model/UI2/cxj/img/shiming.png" alt="" xid="image6" style="width:28px;" __cid="cBFjemi" class="cBFjemi"/>  
+                <span xid="span2" style="padding-left:10px;font-size:medium;line-height:36px;text-align:center;" __cid="cBFjemi" class="cBFjemi">我的优惠券</span>  
+                <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link t btn-only-label pull-right center-block cBFjemi" xid="button18" style="color:#E0E0E0;margin-right:20px;" bind-text=" $model.userData.ref(&quot;checkStatusDesc&quot;)" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-ios7-arrow-right&quot;,&quot;label&quot;:&quot;0&quot;}" __cid="cBFjemi"> 
+                  <i xid="i31" class="icon-ios7-arrow-right text-muted cBFjemi" __cid="cBFjemi"/>  
+                  <span xid="span26" style="font-size:medium;" __cid="cBFjemi" class="cBFjemi">0</span>
+                </a> 
+              </li>
             </ul>
             <style __cid="cBFjemi" class="cBFjemi">.x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYNnyEj-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
-          </div>  
-          <div component="$model/UI2/system/components/justep/panel/panel" class="panel panel-default x-card pcnQVVJb-iosstatusbar cBFjemi" xid="panel5" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cBFjemi"> 
-            <div component="$model/UI2/system/components/justep/list/list" class="x-list cBFjemi" xid="newsList" style="background-color:#F2F2F2;" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&quot;data&quot;:&quot;newsData&quot;,&quot;disableInfiniteLoad&quot;:false,&quot;disablePullToRefresh&quot;:false,&quot;limit&quot;:6}" __cid="cBFjemi"> 
-              <div component="$model/UI2/system/components/justep/row/row" class="x-row center-block cBFjemi" xid="row7" style="background-color:#Fff;" data-bind="component:{name:'$model/UI2/system/components/justep/row/row'}" __cid="cBFjemi"> 
-                <div class="x-col x-col-fixed x-col-center cBFjemi" xid="col13" style="padding:10px 0px 10px 0px;" __cid="cBFjemi"> 
-                  <div xid="div19" align="center" __cid="cBFjemi" class="cBFjemi"> 
-                    <span xid="span22" class="text-primary cBFjemi" style="font-size:medium;" __cid="cBFjemi">新闻专区</span> 
-                  </div> 
-                </div> 
-              </div>  
-              <ul class="x-list-template hide cBFjemi" xid="listTemplateUl1" style="margin-bottom:0px;" bind-foreach="{data:$model.foreach_newsList($element),afterRender:$model.foreach_afterRender_newsList.bind($model,$element)}" __cid="cBFjemi"> 
-                <li xid="li2" class="col col-xs-12 cBFjemi" style="padding:10px;background-color:#F2F2F2;border-bottom:1px solid #e4e4e4;" bind-click="li2Click" __cid="cBFjemi"> 
-                  <div component="$model/UI2/system/components/bootstrap/row/row" class="row cBFjemi" xid="row1" style="margin-right:0px;" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cBFjemi"> 
-                    <div class="col col-xs-4 cBFjemi" xid="col1" __cid="cBFjemi">
-                      <img alt="" xid="image1" bind-attr-src=" val(&quot;img&quot;)" style="width:auto;" class="img-rounded img-responsive media-object cBFjemi" __cid="cBFjemi"/> 
-                    </div>
-                    <div class="col col-xs-8 none-padding cBFjemi" xid="col2" __cid="cBFjemi">
-                      <div xid="div10" align="left" __cid="cBFjemi" class="cBFjemi"> 
-                        <div xid="div16" __cid="cBFjemi" class="cBFjemi"> 
-                          <span xid="span6" bind-text="val(&quot;title&quot;)" style="font-size:medium;" __cid="cBFjemi" class="cBFjemi"/>  
-                          <span xid="span7" bind-text="val(&quot;createDate&quot;)" style="font-size:medium;float:right;" __cid="cBFjemi" class="cBFjemi"/>
-                        </div>
-                      </div>
-                      <span xid="span5" bind-text="val(&quot;description&quot;)" style="color:#BBBBBB;overflow:hidden;clip:rect(auto auto 0px auto);" __cid="cBFjemi" class="cBFjemi"/> 
-                    </div>
-                  </div> 
-                </li> 
-              </ul> 
-            </div>  
-            <div xid="div1" align="center" style="width:100%;" __cid="cBFjemi" class="cBFjemi">
-              <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-label cBFjemi" xid="button2" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:button2Click" data-config="{&quot;label&quot;:&quot;查看更多&quot;}" __cid="cBFjemi"> 
-                <i xid="i1" __cid="cBFjemi" class="cBFjemi"/>  
-                <span xid="span1" style="color:#C0C0C0;line-height:35px;text-align:center;" __cid="cBFjemi" class="cBFjemi">查看更多</span>
-              </a>
-            </div>
-            <style __cid="cBFjemi" class="cBFjemi">.x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-top {height: 0px;}.x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcnQVVJb-iosstatusbar &gt;.x-panel-content {top: 0px;}</style>
-          </div>
+          </div> 
         </div> 
       </div>
     </div>
