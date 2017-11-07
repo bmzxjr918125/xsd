@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window">  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="top:99px;left:460px;height:auto;"><div component="$UI/system/components/justep/data/data" autoLoad="true" xid="sexData" idColumn="value"><column label="选中值" name="value" type="Integer" xid="xid1"></column>
+  <column label="选项名称" name="name" type="String" xid="xid2"></column>
+  <data xid="default1">[{&quot;value&quot;:1,&quot;name&quot;:&quot;男&quot;},{&quot;value&quot;:2,&quot;name&quot;:&quot;女&quot;},{&quot;value&quot;:3,&quot;name&quot;:&quot;其它&quot;}]</data></div>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="imgData" idColumn="id"><column name="id" type="String" xid="xid3"></column>
+  <column name="img" type="String" xid="xid4"></column></div>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="addressData" idColumn="col0">
+   <column name="col0" type="String" xid="column1"></column>
+   <column name="col1" type="String" xid="column2"></column>
+   <column name="col2" type="String" xid="column3"></column>
+   <data xid="default2">[{&quot;col0&quot;:&quot;&quot;,&quot;col1&quot;:&quot;&quot;,&quot;col2&quot;:&quot;&quot;}]</data></div>
+  <div component="$UI/system/components/justep/data/data" autoLoad="true" xid="userData" idColumn="id" onCustomRefresh="userDataCustomRefresh">
+   <column label="用户id" name="id" type="Integer" xid="xid6"></column>
+  <column label="头像路径" name="img" type="String" xid="xid7"></column>
+  <column label="昵称" name="nickName" type="String" xid="xid8"></column>
+  <column label="等级描述" name="gradeDesc" type="String" xid="xid9"></column>
+  <column label="等级" name="grade" type="String" xid="xid10"></column>
+  <column label="积分" name="integral" type="Float" xid="xid11"></column>
+  <column label="推荐码" name="myCode" type="String" xid="xid12"></column>
+  <column label="认证状态描述" name="checkStatusDesc" type="String" xid="xid13"></column>
+  <column label="认证状态" name="checkStatus" type="Integer" xid="xid14"></column>
+  <column name="sexDesc" type="String" xid="xid5"></column>
+  <column name="sexId" type="Integer" xid="xid15"></column>
+  <column name="profession" type="String" xid="xid16"></column>
+  <column name="address" type="String" xid="xid20"></column></div></div> 
+   
+   
+         
+   
+<div component="$UI/system/components/justep/panel/panel" class="x-panel x-full" xid="panel1" style="background-color:#F2F2F2;">
+   
+   <div class="x-panel-content" xid="content1">
+    <div component="$UI/system/components/justep/panel/panel" class="panel panel-default x-card" xid="panel3">
+     <ul xid="ul1" class="list-group">
+      <li class="list-group-item" xid="li1" style="height:80px;padding:0px !important;">
+        
+       
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row2">
+   <div class="x-col x-col-fixed x-col-center" xid="col4" style="width:80px;"><span xid="span16" style="text-align:center;line-height:60px;"><![CDATA[我的头像]]></span></div>
+   <div class="x-col" xid="col5">
+  <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-only-icon pull-right center-block" label="button" xid="button12" icon="icon-ios7-arrow-right" style="line-height:44px;text-align:center;">
+        <i xid="i18" class="icon-ios7-arrow-right text-muted"></i>
+        <span xid="span17"></span></a><img src="$UI/cxj/img/profile.png" alt="" xid="image1" class="pull-right" style="width:60px;height:60px;border-radius:30px;" bind-attr-src='$model.userData.val("img")' bind-touchend="image1Touchend"></img>
+  </div>
+   </div></li> 
+      <li class="list-group-item" xid="li1" style="padding:0px !important;">
+       
+       
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row1">
+   <div class="x-col x-col-fixed x-col-center" xid="col1" style="width:80px;"><span xid="span19"><![CDATA[昵  称]]></span></div>
+   <div class="x-col" xid="col2"><input component="$UI/system/components/justep/input/input" class="form-control" xid="nickName" placeHolder="请输入您的昵称" bind-ref=' $model.userData.ref("nickName")'></input></div>
+   </div></li> 
+      <li class="list-group-item" xid="li1" style="padding:0px !important;">
+        
+       
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row3">
+   <div class="x-col x-col-fixed x-col-center" xid="col7" style="width:80px;"><span xid="span22"><![CDATA[性  别]]></span></div>
+   <div class="x-col" xid="col8"><select component="$UI/system/components/justep/select/select" bind-optionsCaption="请选择性别..." class="form-control" xid="sexSelect" bind-options="sexData" bind-optionsValue="value" bind-optionsLabel="name" bind-ref='$model.userData.ref("sexId")' bind-labelRef='$model.userData.ref("sexDesc")'>
+   </select></div>
+   </div></li> 
+      <li class="list-group-item" xid="li4" style="padding:0px !important;">
+        
+       
+  <div component="$UI/system/components/justep/row/row" class="x-row" xid="row4">
+   <div class="x-col x-col-fixed x-col-center" xid="col11" style="width:80px;"><span xid="span2"><![CDATA[职  业]]></span></div>
+   <div class="x-col" xid="col10"><input component="$UI/system/components/justep/input/input" class="form-control" xid="profession" placeHolder="请输入您的职业" bind-ref='$model.userData.ref("profession")'></input></div></div></li> 
+  <li class="list-group-item" xid="li5" style="padding:0px !important;">
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row5">
+    <div class="x-col x-col-fixed x-col-center" xid="col12" style="width:80px;">
+     <span xid="span11"><![CDATA[所在区域]]></span></div> 
+    <div class="x-col" xid="col13">
+   <div component="$UI/system/components/justep/distpicker/distpicker" class="form-inline " bind-provinceRef="addressData.ref('col0')" bind-cityRef="addressData.ref('col1')" bind-districtRef="addressData.ref('col2')" xid="distpicker1">
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row7">
+   <div class="x-col" xid="col3"><select class="form-control" component="$UI/system/components/justep/distpicker/provinceSelect" bind-ref="addressData.ref('col0')" xid="provinceSelect" optionsCaption="-省-"></select></div>
+   <div class="x-col" xid="col6"><select class="form-control" component="$UI/system/components/justep/distpicker/citySelect" bind-provinceRef="addressData.ref('col0')" bind-ref="addressData.ref('col1')" xid="citySelect" optionsCaption="-市-"></select></div>
+   <div class="x-col" xid="col9"><select class="form-control" component="$UI/system/components/justep/distpicker/districtSelect" bind-cityRef="addressData.ref('col1')" bind-ref="addressData.ref('col2')" xid="areaSelect" optionsCaption="-县-"></select></div></div>
+   
+   </div></div>
+  </div> </li>
+  <li class="list-group-item" xid="li6" style="padding:0px !important;">
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row6">
+    <div class="x-col x-col-fixed x-col-center" xid="col19" style="width:80px;">
+     <span xid="span12"><![CDATA[详细地址]]></span></div> 
+    <div class="x-col" xid="col18">
+     <input component="$UI/system/components/justep/input/input" class="form-control" xid="address" placeHolder="请输入您的详细地址" bind-ref='$model.userData.ref("address")'></input></div> 
+    
+    </div> </li>
+  <li class="list-group-item" xid="li2" style="padding:0px !important;display:none;">
+   <div component="$UI/system/components/justep/row/row" class="x-row" xid="row8">
+    <div class="x-col x-col-fixed x-col-center" xid="col15" style="width:80px;">
+     <form xid="postForm" accept="image/jpeg,image/png" enctype="multipart/form-data" target="postResultIframe" class="form-horizontal container-fluid" method="post" action="">
+	        <input type="file" name="image" xid="uploadfile" bind-change="uploadfileChange" />
+	        <button xid="button1" bind-click="button1Click" type="submit">提交</button>
+	 </form></div> 
+    </div> </li></ul> </div> 
+    
+    <div component="$UI/system/components/justep/panel/panel" class="panel panel-default x-card" xid="panel2" style="padding:5px;background-color:#F2F2F2;border:0px solid #f2f2f2;">
+     
+      <div xid="div1" style="width:100%;" align="center"><a component="$UI/system/components/justep/button/button" class="btn btn-default" label="保存" xid="editSaveBtn" style="font-size:medium;background-color:white;border-color:#fff;width:96%;" onClick="editSaveBtnClick">
+   <i xid="i1"></i>
+   <span xid="span3" style="font-size:medium;color:#000000;">保存</span></a></div></div> </div> </div>
+  </div>

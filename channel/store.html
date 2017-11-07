@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$UI/system/components/justep/window/window" design="device:mobile">  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="left:18px;top:83px;height:244px;"> 
+    <div component="$UI/system/components/justep/data/data" autoLoad="true"
+      xid="data" idColumn="id"> 
+      <column label="id" name="id" type="String" xid="default1"/>  
+      <column label="imgSrc" name="imgSrc" type="String" xid="default2"/>  
+      <column label="名称" name="name" type="String" xid="xid1"/>  
+      <column label="地址" name="address" type="String" xid="xid2"/>  
+      <column label="电话" name="tel" type="String" xid="xid3"/>  
+      <data xid="default3">[{&quot;id&quot;:&quot;1&quot;,&quot;imgSrc&quot;:&quot;./img/pic1.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称1111&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  10积分&quot;},{&quot;id&quot;:&quot;2&quot;,&quot;imgSrc&quot;:&quot;./img/pic2.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称2222&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  80积分&quot;},{&quot;id&quot;:&quot;3&quot;,&quot;imgSrc&quot;:&quot;./img/pic3.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称33333&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  300积分&quot;},{&quot;id&quot;:&quot;4&quot;,&quot;imgSrc&quot;:&quot;./img/pic4.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称1111兑换商品名称1111&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  1000积分&quot;},{&quot;id&quot;:&quot;5&quot;,&quot;imgSrc&quot;:&quot;./img/pic5.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称11111231&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  99积分&quot;},{&quot;id&quot;:&quot;6&quot;,&quot;imgSrc&quot;:&quot;./img/pic6.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称1111&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  356积分&quot;},{&quot;id&quot;:&quot;7&quot;,&quot;imgSrc&quot;:&quot;./img/pic7.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称1111&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  700积分&quot;},{&quot;id&quot;:&quot;8&quot;,&quot;imgSrc&quot;:&quot;./img/pic8.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称1111&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  60积分&quot;},{&quot;id&quot;:&quot;9&quot;,&quot;imgSrc&quot;:&quot;./img/pic9.jpg&quot;,&quot;name&quot;:&quot;兑换商品名称1111&quot;,&quot;address&quot;:&quot;兑换商品一句话的简单描述&quot;,&quot;tel&quot;:&quot;兑换:  40积分&quot;}]</data></div> 
+  </div>  
+  <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full x-card"> 
+    <div class="x-panel-content x-cards"> 
+      <div component="$UI/system/components/justep/list/list" class="x-list"
+        xid="list1" data="data" disablePullToRefresh="true" disableInfiniteLoad="true"> 
+        <ul class="x-list-template" xid="listTemplateUl1"> 
+          <li class="col-xs-12" xid="li1" bind-click="open"> 
+            <div class="thumbnail media"> 
+              <div class="media-left"> 
+                <img bind-attr-src="$model.getImageUrl($object)" class="x-img1"
+                  bind-click="open"/> 
+              </div>  
+              <div class="media-body"> 
+                <h4 bind-text="ref('name')" class="text-black media-heading"><![CDATA[]]></h4>  
+                <span bind-text="ref('address')"/>  
+                <h5 class="text-danger" bind-text="ref('tel')"><![CDATA[]]></h5> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div> 
+    </div> 
+  </div> 
+</div>

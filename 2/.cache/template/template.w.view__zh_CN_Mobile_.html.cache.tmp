@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" component="$model/UI2/system/components/justep/window/window" xid="window" design="device:mobile" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cbUJRbe" class="cbUJRbe" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.x-titlebar.cbUJRbe{background-color: rgb(237, 72, 70)} .text-black.cbUJRbe{color: rgb(33, 33, 33)} .text-red.cbUJRbe{color: rgb(237, 72, 70)}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" data-events="onParamsReceive:modelParamsReceive" __cid="cbUJRbe" class="cbUJRbe"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcYJRVFv-iosstatusbar cbUJRbe" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cbUJRbe"> 
+    <div class="x-panel-top cbUJRbe" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbUJRbe"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cbUJRbe" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;详情&quot;}" __cid="cbUJRbe"> 
+        <div class="x-titlebar-left cbUJRbe" __cid="cbUJRbe"> 
+          <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-only-icon cbUJRbe" xid="backBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-events="onClick:backBtnClick" data-config="{&quot;icon&quot;:&quot;icon-chevron-left&quot;,&quot;label&quot;:&quot;&quot;}" __cid="cbUJRbe"> 
+            <i class="icon-chevron-left cbUJRbe" __cid="cbUJRbe"/>  
+            <span __cid="cbUJRbe" class="cbUJRbe"/> 
+          </a> 
+        </div>  
+        <div class="x-titlebar-title cbUJRbe" __cid="cbUJRbe">详情</div>  
+        <div class="x-titlebar-right  cbUJRbe" __cid="cbUJRbe"> 
+          <div class="empty cbUJRbe" __cid="cbUJRbe"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content cbUJRbe" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cbUJRbe"> 
+      <div class="x-control-group cbUJRbe" xid="controlGroup1" __cid="cbUJRbe"> 
+        <div class="x-control-group-title cbUJRbe" xid="controlGroupTitle1" __cid="cbUJRbe"> 
+          <span xid="span1" __cid="cbUJRbe" class="cbUJRbe" data-bind="text:data.val('title')"/> 
+        </div>  
+        <span __cid="cbUJRbe" class="cbUJRbe" data-bind="text:data.val('wDate')"/>  
+        <div __cid="cbUJRbe" class="cbUJRbe" data-bind="foreach:data.datas"> 
+          <p __cid="cbUJRbe" class="cbUJRbe" data-bind="text:val('content')"/> 
+        </div> 
+      </div> 
+    </div>  
+    <style __cid="cbUJRbe" class="cbUJRbe">.x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcYJRVFv-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>

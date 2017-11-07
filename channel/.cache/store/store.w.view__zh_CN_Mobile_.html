@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+<div component="$model/UI2/system/components/justep/window/window" design="device:mobile" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cyEfuI3" class="cyEfuI3" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/list/list,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/data/data,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/panel/panel,">
+  <style>.text-black.cyEfuI3{color: rgb(33, 33, 33)} .text-danger.cyEfuI3{color: rgb(237, 72, 70)} .x-img1.cyEfuI3{width: 80px; height: 70px}</style>  
+  <div component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cyEfuI3" class="cyEfuI3"></div>  
+  <div component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full x-card pcMZBV3y-iosstatusbar cyEfuI3" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cyEfuI3"> 
+    <div class="x-panel-content x-cards cyEfuI3" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cyEfuI3"> 
+      <div component="$model/UI2/system/components/justep/list/list" class="x-list cyEfuI3" xid="list1" data-bind="component:{name:'$model/UI2/system/components/justep/list/list'}" data-config="{&#34;data&#34;:&#34;data&#34;,&#34;disableInfiniteLoad&#34;:true,&#34;disablePullToRefresh&#34;:true}" __cid="cyEfuI3"> 
+        <ul class="x-list-template hide cyEfuI3" xid="listTemplateUl1" __cid="cyEfuI3" data-bind="foreach:{data:$model.foreach_list1($element),afterRender:$model.foreach_afterRender_list1.bind($model,$element)}"> 
+          <li class="col-xs-12 cyEfuI3" xid="li1" __cid="cyEfuI3" data-bind="event:{click:$model._callModelFn.bind($model, 'open')}"> 
+            <div class="thumbnail media cyEfuI3" __cid="cyEfuI3"> 
+              <div class="media-left cyEfuI3" __cid="cyEfuI3"> 
+                <img class="x-img1 cyEfuI3" __cid="cyEfuI3" data-bind="attr:{src:$model.getImageUrl($object)},event:{click:$model._callModelFn.bind($model, 'open')}"> 
+              </div>  
+              <div class="media-body cyEfuI3" __cid="cyEfuI3"> 
+                <h4 class="text-black media-heading cyEfuI3" __cid="cyEfuI3" data-bind="text:ref('name')"></h4>  
+                <span __cid="cyEfuI3" class="cyEfuI3" data-bind="text:ref('address')"></span>  
+                <h5 class="text-danger cyEfuI3" __cid="cyEfuI3" data-bind="text:ref('tel')"></h5> 
+              </div> 
+            </div> 
+          </li> 
+        </ul> 
+      </div> 
+    </div>  
+    <style __cid="cyEfuI3" class="cyEfuI3">.x-panel.pcMZBV3y-iosstatusbar >.x-panel-top {height: 0px;}.x-panel.pcMZBV3y-iosstatusbar >.x-panel-content { top: 0px;bottom: nullpx;}.x-panel.pcMZBV3y-iosstatusbar >.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcMZBV3y-iosstatusbar >.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMZBV3y-iosstatusbar >.x-panel-top {height: 0px;}.iosstatusbar .x-panel.pcMZBV3y-iosstatusbar >.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcMZBV3y-iosstatusbar >.x-panel-content { top: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMZBV3y-iosstatusbar >.x-panel-top {height: 0px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcMZBV3y-iosstatusbar >.x-panel-content {top: 0px;}</style>
+  </div> 
+</div>

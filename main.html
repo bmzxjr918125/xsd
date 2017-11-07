@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13" component="$UI/system/components/justep/window/window"
+  design="device:m;" xid="window">  
+  <div component="$UI/system/components/justep/model/model" xid="model" style="height:auto;left:13px;top:202px;"/>  
+  <div component="$UI/system/components/justep/panel/panel" class="x-panel x-full"> 
+    <div class="x-panel-top" xid="top1"> 
+      <div component="$UI/system/components/justep/titleBar/titleBar" class="x-titlebar"
+        xid="titleBar1" title="小时代美甲美睫"> 
+        <div class="x-titlebar-left" xid="div1"/>  
+        <div class="x-titlebar-title" xid="div2">小时代美甲美睫</div>  
+        <div class="x-titlebar-right reverse" xid="div3"/> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-bg-img"> 
+      <div component="$UI/system/components/justep/contents/contents" class="x-contents x-full"
+        active="0" xid="contents2"> 
+        <div class="x-contents-content" xid="homeContent"> 
+          <div component="$UI/system/components/bootstrap/carousel/carousel"
+            class="x-carousel carousel" xid="carousel1"> 
+            <ol class="carousel-indicators" xid="ol1"/>  
+            <div class="x-contents carousel-inner" role="listbox" component="$UI/system/components/justep/contents/contents"
+              active="0" slidable="true" wrap="true" swipe="true" xid="contents1"> 
+              <div class="x-contents-content" xid="content1"> 
+                <img class="image-wall x-imgBanner" bind-attr-src="$model.getImageUrl('./img/banner1.jpg')"/> 
+              </div>  
+              <div class="x-contents-content" xid="content2"> 
+                <img class="image-wall x-imgBanner" bind-attr-src="$model.getImageUrl('./img/banner2.jpg')"/> 
+              </div>  
+              <div class="x-contents-content" xid="content3"> 
+                <img class="image-wall x-imgBanner" bind-attr-src="$model.getImageUrl('./img/banner3.jpg')"/> 
+              </div>  
+              <div class="x-contents-content" xid="content4"> 
+                <img class="image-wall x-imgBanner" bind-attr-src="$model.getImageUrl('./img/banner4.jpg')"/> 
+              </div> 
+            </div> 
+          </div>  
+          <div component="$UI/system/components/bootstrap/row/row" class="row x-pic"> 
+            <div class="col col-xs-6" xid="col17" bind-click="menuDetailedClick"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('./img/top1.jpg')"
+                class="x-img2" xid="image6"/> 
+            </div>  
+            <div class="col col-xs-6" xid="col19" bind-click="menuDetailedClick"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('./img/top2.jpg')"
+                class="x-img2" xid="image7"/> 
+            </div>  
+            <div class="col col-xs-6" xid="col18" bind-click="menuDetailedClick"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('./img/top3.jpg')"
+                class="x-img2" xid="image8"/> 
+            </div>  
+            <div class="col col-xs-6" xid="col20" bind-click="menuDetailedClick"> 
+              <img src="" alt="" bind-attr-src="$model.getImageUrl('./img/top4.jpg')"
+                class="x-img2" xid="image9"/> 
+            </div> 
+          </div>
+          <div component="$UI/system/components/bootstrap/row/row" class="row x-recommended"> 
+            <div class="col col-xs-12" bind-click="storeDetailedClick"> 
+               <div> 
+                  <span class="text-white x-flex pull-left"><![CDATA[今日推荐]]></span>  
+                  <span class="x-flex pull-left"/>  
+                  <span class="text-white x-flex pull-left"><![CDATA[亮彩美甲]]></span> 
+                </div>  
+                <img class="x-img1" bind-attr-src="$model.getImageUrl('./img/rec1.jpg')"/>
+            </div>  
+            <div class="col col-xs-12" bind-click="storeDetailedClick"> 
+               <div> 
+                  <span class="text-white x-flex pull-left"><![CDATA[火爆款式]]></span>  
+                  <span class="x-flex pull-left"/>  
+                  <span class="text-white x-flex pull-left"><![CDATA[舌尖上的指甲]]></span> 
+                </div>  
+                <img class="x-img1" bind-attr-src="$model.getImageUrl('./img/rec2.jpg')"/>
+            </div>  
+            <div class="col col-xs-12" bind-click="storeDetailedClick"> 
+               <div> 
+                  <span class="text-white x-flex pull-left"><![CDATA[特价款式]]></span>  
+                  <span class="x-flex pull-left"/>  
+                  <span class="text-white x-flex pull-left"><![CDATA[换季款式五折优惠]]></span> 
+                </div>  
+                <img class="x-img1" bind-attr-src="$model.getImageUrl('./img/rec3.jpg')"/>
+            </div> 
+          </div>  
+          
+        </div>  
+        <div class="x-contents-content" xid="storeContent" onActive="storeContentActive">
+          <div component="$UI/system/components/justep/windowContainer/windowContainer"
+            class="x-window-container" xid="storeContainer" style="height:100%;width:100%;"/>
+        </div>  
+        <div class="x-contents-content" xid="userContent" onActive="userContentActive">
+          <div component="$UI/system/components/justep/windowContainer/windowContainer"
+            class="x-window-container" xid="userContainer" style="height:100%;width:100%;"/>
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom" xid="bottom1"> 
+      <div component="$UI/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified x-card"
+        tabbed="true" xid="buttonGroup1"> 
+        <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top active"
+          label="首页" xid="homeBtn" icon="icon-home" target="homeContent"> 
+          <i xid="i1" class="icon-home"/>  
+          <span xid="span1">首页</span> 
+        </a>  
+        <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top"
+          label="兑换" xid="storeBtn" icon="icon-bag" target="storeContent"> 
+          <i xid="i3" class="icon-bag"/>  
+          <span xid="span3">兑换</span> 
+        </a>  
+        <a component="$UI/system/components/justep/button/button" class="btn btn-link btn-icon-top"
+          label="个人中心" xid="userBtn" icon="icon-card" target="userContent"> 
+          <i xid="i4" class="icon-card"/>  
+          <span xid="span4">个人中心</span> 
+        </a> 
+      </div> 
+    </div> 
+  </div> 
+</div>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div xmlns="http://www.w3.org/1999/xhtml" class="main13 cY3iq2q" component="$model/UI2/system/components/justep/window/window" design="device:m;" xid="window" data-bind="component:{name:'$model/UI2/system/components/justep/window/window'}" __cid="cY3iq2q" components="$model/UI2/system/components/justep/model/model,$model/UI2/system/components/justep/loadingBar/loadingBar,$model/UI2/system/components/justep/button/button,$model/UI2/system/components/bootstrap/row/row,$model/UI2/system/components/justep/panel/child,$model/UI2/system/components/justep/panel/panel,$model/UI2/system/components/justep/contents/content,$model/UI2/system/components/justep/windowContainer/windowContainer,$model/UI2/system/components/bootstrap/carousel/carousel,$model/UI2/system/components/justep/titleBar/titleBar,$model/UI2/system/components/justep/contents/contents,$model/UI2/system/components/justep/window/window,$model/UI2/system/components/justep/button/buttonGroup,">  
+  <style xmlns="" xmlns:xhtml="http://www.w3.org/1999/xhtml">.text-white.cY3iq2q{color: rgb(255, 255, 255)} .bg-red.cY3iq2q{background-color: rgb(237, 72, 70)} .x-imgBanner.cY3iq2q{width: 100%; height: 180px} .x-img1.cY3iq2q{width: 100%; height: 90px} .x-img2.cY3iq2q{width: 100%; height: 90px} .x-img3.cY3iq2q{width: 26px; height: 24px} .btn.cY3iq2q i.cY3iq2q{font-size: 20px} .btn.cY3iq2q span.cY3iq2q{font-size: 12px; font-weight: normal} .x-titlebar.cY3iq2q{background-color: rgb(237, 72, 70)} .x-panel-bottom.cY3iq2q .btn-group.cY3iq2q .btn.active.cY3iq2q{color: rgb(237, 72, 70); padding: 0} .x-panel-bottom.cY3iq2q .btn-group.cY3iq2q{background-color: rgb(255, 255, 255)} .x-cards.cY3iq2q{padding-top: 0} .row.cY3iq2q{margin: 10px 10px} .row.cY3iq2q .col.cY3iq2q{padding: 0} .x-menu.row.cY3iq2q .col.cY3iq2q:nth-child(2){padding: 0 3px} .x-menu.row.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q{padding: 8px 0 3px 0} .x-pic.row.cY3iq2q .col.cY3iq2q{padding: 1px} .x-recommended.cY3iq2q .col.cY3iq2q{position: relative; margin-bottom: 10px} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q{width: 100%; position: absolute; bottom: 0px; left: 0; z-index: 33; background-color: rgba(0, 0, 0, 0.4)} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q span.cY3iq2q{padding: 5px} .x-recommended.cY3iq2q .col.cY3iq2q &gt; div.cY3iq2q span.cY3iq2q:nth-child(2){height: 13px; margin: 7px 0; border-right: 1px solid rgb(255, 255, 255)}</style>  
+  <div xmlns="" component="$model/UI2/system/components/justep/model/model" xid="model" style="display:none" data-bind="component:{name:'$model/UI2/system/components/justep/model/model'}" __cid="cY3iq2q" class="cY3iq2q"/>  
+  <div xmlns="" component="$model/UI2/system/components/justep/panel/panel" class="x-panel x-full pcAjUnii-iosstatusbar cY3iq2q" data-bind="component:{name:'$model/UI2/system/components/justep/panel/panel'}" __cid="cY3iq2q"> 
+    <div class="x-panel-top cY3iq2q" xid="top1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cY3iq2q"> 
+      <div component="$model/UI2/system/components/justep/titleBar/titleBar" class="x-titlebar cY3iq2q" xid="titleBar1" data-bind="component:{name:'$model/UI2/system/components/justep/titleBar/titleBar'}" data-config="{&quot;title&quot;:&quot;小时代美甲美睫&quot;}" __cid="cY3iq2q"> 
+        <div class="x-titlebar-left cY3iq2q" xid="div1" __cid="cY3iq2q"/>  
+        <div class="x-titlebar-title cY3iq2q" xid="div2" __cid="cY3iq2q">小时代美甲美睫</div>  
+        <div class="x-titlebar-right  cY3iq2q" xid="div3" __cid="cY3iq2q"> 
+          <div class="empty cY3iq2q" __cid="cY3iq2q"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-content x-bg-img cY3iq2q" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cY3iq2q"> 
+      <div component="$model/UI2/system/components/justep/contents/contents" class="x-contents x-full cY3iq2q" xid="contents2" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0}" __cid="cY3iq2q"> 
+        <div class="x-contents-content active cY3iq2q" xid="homeContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cY3iq2q"> 
+          <div component="$model/UI2/system/components/bootstrap/carousel/carousel" class="x-carousel carousel cY3iq2q" xid="carousel1" data-bind="component:{name:'$model/UI2/system/components/bootstrap/carousel/carousel'}" __cid="cY3iq2q"> 
+            <ol class="carousel-indicators cY3iq2q" xid="ol1" __cid="cY3iq2q"/>  
+            <div class="x-contents carousel-inner cY3iq2q" role="listbox" component="$model/UI2/system/components/justep/contents/contents" xid="contents1" data-bind="component:{name:'$model/UI2/system/components/justep/contents/contents'}" data-config="{&quot;active&quot;:0,&quot;slidable&quot;:true,&quot;swipe&quot;:true,&quot;wrap&quot;:true}" __cid="cY3iq2q"> 
+              <div class="x-contents-content active cY3iq2q" xid="content1" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cY3iq2q"> 
+                <img class="image-wall x-imgBanner cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/banner1.jpg')}"/> 
+              </div>  
+              <div class="x-contents-content cY3iq2q" xid="content2" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cY3iq2q"> 
+                <img class="image-wall x-imgBanner cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/banner2.jpg')}"/> 
+              </div>  
+              <div class="x-contents-content cY3iq2q" xid="content3" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cY3iq2q"> 
+                <img class="image-wall x-imgBanner cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/banner3.jpg')}"/> 
+              </div>  
+              <div class="x-contents-content cY3iq2q" xid="content4" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" __cid="cY3iq2q"> 
+                <img class="image-wall x-imgBanner cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/banner4.jpg')}"/> 
+              </div> 
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="row x-pic cY3iq2q" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cY3iq2q"> 
+            <div class="col col-xs-6 cY3iq2q" xid="col17" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
+              <img src="" alt="" class="x-img2 cY3iq2q" xid="image6" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top1.jpg')}"/> 
+            </div>  
+            <div class="col col-xs-6 cY3iq2q" xid="col19" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
+              <img src="" alt="" class="x-img2 cY3iq2q" xid="image7" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top2.jpg')}"/> 
+            </div>  
+            <div class="col col-xs-6 cY3iq2q" xid="col18" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
+              <img src="" alt="" class="x-img2 cY3iq2q" xid="image8" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top3.jpg')}"/> 
+            </div>  
+            <div class="col col-xs-6 cY3iq2q" xid="col20" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'menuDetailedClick')}"> 
+              <img src="" alt="" class="x-img2 cY3iq2q" xid="image9" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/top4.jpg')}"/> 
+            </div> 
+          </div>  
+          <div component="$model/UI2/system/components/bootstrap/row/row" class="row x-recommended cY3iq2q" data-bind="component:{name:'$model/UI2/system/components/bootstrap/row/row'}" __cid="cY3iq2q"> 
+            <div class="col col-xs-12 cY3iq2q" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'storeDetailedClick')}"> 
+              <div __cid="cY3iq2q" class="cY3iq2q"> 
+                <span class="text-white x-flex pull-left cY3iq2q" __cid="cY3iq2q">今日推荐</span>  
+                <span class="x-flex pull-left cY3iq2q" __cid="cY3iq2q"/>  
+                <span class="text-white x-flex pull-left cY3iq2q" __cid="cY3iq2q">亮彩美甲</span> 
+              </div>  
+              <img class="x-img1 cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/rec1.jpg')}"/> 
+            </div>  
+            <div class="col col-xs-12 cY3iq2q" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'storeDetailedClick')}"> 
+              <div __cid="cY3iq2q" class="cY3iq2q"> 
+                <span class="text-white x-flex pull-left cY3iq2q" __cid="cY3iq2q">火爆款式</span>  
+                <span class="x-flex pull-left cY3iq2q" __cid="cY3iq2q"/>  
+                <span class="text-white x-flex pull-left cY3iq2q" __cid="cY3iq2q">舌尖上的指甲</span> 
+              </div>  
+              <img class="x-img1 cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/rec2.jpg')}"/> 
+            </div>  
+            <div class="col col-xs-12 cY3iq2q" __cid="cY3iq2q" data-bind="event:{click:$model._callModelFn.bind($model, 'storeDetailedClick')}"> 
+              <div __cid="cY3iq2q" class="cY3iq2q"> 
+                <span class="text-white x-flex pull-left cY3iq2q" __cid="cY3iq2q">特价款式</span>  
+                <span class="x-flex pull-left cY3iq2q" __cid="cY3iq2q"/>  
+                <span class="text-white x-flex pull-left cY3iq2q" __cid="cY3iq2q">换季款式五折优惠</span> 
+              </div>  
+              <img class="x-img1 cY3iq2q" __cid="cY3iq2q" data-bind="attr:{src:$model.getImageUrl('./img/rec3.jpg')}"/> 
+            </div> 
+          </div> 
+        </div>  
+        <div class="x-contents-content cY3iq2q" xid="storeContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onActive:storeContentActive" __cid="cY3iq2q"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cY3iq2q" xid="storeContainer" style="height:100%;width:100%;" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" __cid="cY3iq2q"/> 
+        </div>  
+        <div class="x-contents-content cY3iq2q" xid="userContent" component="$model/UI2/system/components/justep/contents/content" data-bind="component:{name:'$model/UI2/system/components/justep/contents/content'}" data-events="onActive:userContentActive" __cid="cY3iq2q"> 
+          <div component="$model/UI2/system/components/justep/windowContainer/windowContainer" class="x-window-container cY3iq2q" xid="userContainer" style="height:100%;width:100%;" __component-context__="block" data-bind="component:{name:'$model/UI2/system/components/justep/windowContainer/windowContainer'}" __cid="cY3iq2q"/> 
+        </div> 
+      </div> 
+    </div>  
+    <div class="x-panel-bottom cY3iq2q" xid="bottom1" component="$model/UI2/system/components/justep/panel/child" data-bind="component:{name:'$model/UI2/system/components/justep/panel/child'}" __cid="cY3iq2q"> 
+      <div component="$model/UI2/system/components/justep/button/buttonGroup" class="btn-group btn-group-justified x-card cY3iq2q" xid="buttonGroup1" data-bind="component:{name:'$model/UI2/system/components/justep/button/buttonGroup'}" data-config="{&quot;tabbed&quot;:true}" __cid="cY3iq2q"> 
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top active cY3iq2q" xid="homeBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-home&quot;,&quot;label&quot;:&quot;首页&quot;,&quot;target&quot;:&quot;homeContent&quot;}" __cid="cY3iq2q"> 
+          <i xid="i1" class="icon-home cY3iq2q" __cid="cY3iq2q"/>  
+          <span xid="span1" __cid="cY3iq2q" class="cY3iq2q">首页</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cY3iq2q" xid="storeBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-bag&quot;,&quot;label&quot;:&quot;兑换&quot;,&quot;target&quot;:&quot;storeContent&quot;}" __cid="cY3iq2q"> 
+          <i xid="i3" class="icon-bag cY3iq2q" __cid="cY3iq2q"/>  
+          <span xid="span3" __cid="cY3iq2q" class="cY3iq2q">兑换</span> 
+        </a>  
+        <a component="$model/UI2/system/components/justep/button/button" class="btn btn-link btn-icon-top cY3iq2q" xid="userBtn" data-bind="component:{name:'$model/UI2/system/components/justep/button/button'}" data-config="{&quot;icon&quot;:&quot;icon-card&quot;,&quot;label&quot;:&quot;个人中心&quot;,&quot;target&quot;:&quot;userContent&quot;}" __cid="cY3iq2q"> 
+          <i xid="i4" class="icon-card cY3iq2q" __cid="cY3iq2q"/>  
+          <span xid="span4" __cid="cY3iq2q" class="cY3iq2q">个人中心</span> 
+        </a> 
+      </div> 
+    </div>  
+    <style __cid="cY3iq2q" class="cY3iq2q">.x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-top {height: 48px;}.x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-content { top: 48px;bottom: nullpx;}.x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-bottom {height: nullpx;}.iosstatusbar .x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-top,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-top {height: 68px;}.iosstatusbar .x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-content,.iosstatusbar .x-panel .x-panel-content .x-has-iosstatusbar.x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-content { top: 68px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-top {height: 48px;}.iosstatusbar .x-panel .x-panel-content .x-panel.pcAjUnii-iosstatusbar &gt;.x-panel-content {top: 48px;}</style> 
+  </div> 
+</div>
